@@ -36,3 +36,115 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar_logo {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar_search-form {
+  display: flex;
+  align-items: center;
+}
+
+.form-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.navbar_links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar_links a {
+  color: white;
+  text-decoration: none;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.photo {
+  position: relative;
+  flex: 1 1 calc(25% - 1rem);
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.photo-info {
+  padding: 1rem;
+}
+
+.photo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.photo-actions p,
+.photo-actions button {
+  margin: 0;
+}
+
+.favourite-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.favourite-btn.active {
+  color: red;
+}
+
+.heart-icon {
+  color: red;
+}
+
+.share-btn,
+.download-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
